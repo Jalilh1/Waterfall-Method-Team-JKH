@@ -1,0 +1,17 @@
+TestID,Title,Outcome,Detail
+T01,Create profile,PASSED,
+T02,Duplicate email rejected,PASSED,
+T03,Add course CPSC 2120,PASSED,
+T05,Duplicate course rejected,PASSED,
+T04,List courses includes CPSC 2120,PASSED,
+T06,Add availability 2:14-17,PASSED,
+T08,Remove non-existent availability reports message,PASSED,
+T07,Remove existing availability,PASSED,
+T09,Suggest matches (overlap exists),PASSED,
+T10,Suggest matches (no overlap),PASSED,
+T11,Schedule valid session,PASSED,
+T12,Schedule outside availability rejected,PASSED,
+T18,Schedule with non-enrolled invitee rejected,PASSED,
+T13,Confirm session transitions to CONFIRMED,PASSED,org=1 inv=1 confirmed=1
+T14,Confirm by non-participant rejected,PASSED,
+T19,Cancel session sets CANCELLED,PASSED,
